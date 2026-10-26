@@ -83,10 +83,10 @@ sequenceDiagram
 ### 2. Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/backend-ledger.git
+git clone https://github.com/ChaitanyaTi/double-entry-ledger-api.git
 
 # Navigate to project directory
-cd backend-ledger
+cd double-entry-ledger-api
 
 # Install dependencies
 npm install

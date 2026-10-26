@@ -1,5 +1,5 @@
 {
-  "name": "backend-ledger",
+  "name": "double-entry-ledger-api",
   "version": "1.0.0",
   "description": "Double-entry banking and ledger transaction API",
   "main": "server.js",
