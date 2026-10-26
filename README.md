@@ -5,6 +5,8 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
 [![Mongoose](https://img.shields.io/badge/Mongoose-ODM-880000?style=for-the-badge&logo=mongoose)](https://mongoosejs.com/)
 [![JWT](https://img.shields.io/badge/Auth-JWT_Blacklisting-blueviolet?style=for-the-badge&logo=jsonwebtokens)](https://jwt.io/)
+[![Node.js CI](https://github.com/ChaitanyaTi/double-entry-ledger-api/actions/workflows/ci.yml/badge.svg)](https://github.com/ChaitanyaTi/double-entry-ledger-api/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A production-grade, double-entry banking and transaction ledger service built with Node.js, Express 5, and MongoDB. 
 
@@ -186,5 +188,14 @@ npm start
 
 ---
 
+## 📮 Postman Collection
+
+A complete Postman collection is included in this repository:
+- **File**: [`postman_collection.json`](./postman_collection.json)
+- Includes automated environment variable capture for JWT auth tokens, pre-configured requests for all endpoints, and example payloads.
+- **How to use**: In Postman, click **Import** ➔ select `postman_collection.json` ➔ set `baseUrl` to `http://localhost:3000`.
+
+---
+
 ## 📄 License
-ISC
+This project is licensed under the [MIT License](./LICENSE).
